@@ -6,13 +6,11 @@ namespace IJSequence
     {
         static void Main(string[] args)
         {
-            int number = 7;
-            int count = 14;
-            int beginningSequence = -2;
+            int count = 100;
 
-            for (int i = 0; i < count; i++)
+            for (int i = 5; i < count; i += 7)
             {
-                Console.Write($"{beginningSequence += number} ");
+                Console.Write($"{i} ");
             }
         }
     }
